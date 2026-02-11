@@ -72,5 +72,6 @@ cc_library_host_static {
         "libisofs/md5.c",
     ],
     export_include_dirs: ["."],
+    stl: "none",
     visibility: ["//external/libburnia:__subpackages__"],
 }
